@@ -1,0 +1,51 @@
+.formstyle
+{
+width: 250px;
+height: 350px;
+margin: 20px auto;
+border: 3px solid whitesmoke;
+border-radius:50px;
+padding: 40px;
+text-align: center;
+background-color: white;
+}
+body{
+	background-color: coral;
+}
+h1 {
+	text-align: center;
+	padding: 23px;
+	font-size: 40px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: black
+	}
+input:hover
+{
+background-color: green;
+}
+	
+*{
+margin: 0;
+padding: 0;
+}
+
+.btn{
+width: 50px;
+height: 50px;
+font-size: 25px;
+margin: 4px;
+cursor: pointer;
+background-color: chartreuse;
+color:whitesmoke;
+border:0px solid black;
+border-radius: 10px ;
+}
+
+.textview{
+width: 220px;
+margin: 5px;
+font-size: 25px;
+padding: 5px;
+border: 0px solid black;
+background-color: lightgreen;
+}	

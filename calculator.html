@@ -1,0 +1,36 @@
+<!--Calculator Without Eval()-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Using JavaScript</title>
+    <link rel="stylesheet" href="calci.css">
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <script src="calcfunc.js"></script>
+ <div class= "formstyle">
+ <form name = "form1">
+    <input class= "textview" name = "textview"><br><br>
+	<input class = "btn" type = "button" value = "C" onclick = "form1.textview.value = ' ' " > 
+    <input class = "btn"  type = "button" value = "0" onclick = "insert(event)" >
+	<input  class = "btn" type = "button" value = "/" onclick = "insert(event)" > 
+	<input class = "btn" type = "button" value = "*" onclick = "insert(event)" > <br><br>
+	<input class = "btn" type = "button" value = "7" onclick = "insert(event)" > 
+	<input class = "btn" type = "button" value = "8" onclick = "insert(event)" > 
+	<input class = "btn" type = "button" value = "9" onclick = "insert(event)" > 
+	<input class = "btn" type = "button" value = "-" onclick = "insert(event)" ><br><br>
+	<input class = "btn" type = "button" value = "4" onclick = "insert(event)" > 
+    <input class = "btn" type = "button" value = "5" onclick = "insert(event)" > 
+	<input class = "btn" type = "button" value = "6" onclick = "insert(event)" > 
+	<input class = "btn" type = "button" value = "+" onclick = "insert(event)" ><br><br>
+	<input class = "btn" type = "button" value = "1" onclick = "insert(event)" >
+    <input class = "btn" type = "button" value = "2" onclick = "insert(event)" >
+    <input class = "btn" type = "button" value = "3" onclick = "insert(event)" >
+    <input class = "btn" type = "button" value = "=" onclick = "equal()"> 
+</form>
+ </div>
+</body>
+</html>
